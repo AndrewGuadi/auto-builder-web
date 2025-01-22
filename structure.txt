@@ -1,0 +1,15 @@
+/webapp
+│
+├── /generators
+│   ├── website_generator.py  # GPT code generation logic
+│   └── image_generator.py    # Image generation and downloading logic
+│
+├── /integrators
+│   └── asset_integrator.py   # Code to merge website code and image paths
+│
+├── /services
+│   └── file_manager.py       # File writing and directory management
+│
+├── main.py                   # Orchestrator that ties all components together
+│
+└── requirements.txt          # Dependencies

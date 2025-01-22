@@ -3,36 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Landing Page</title>
+    <meta name="description" content="Join us in celebrating our grandmother's 86 years of love, wisdom, and cherished family moments.">
+    <meta name="keywords" content="Grandma's 86th birthday, family celebration, life story, wisdom, love, family milestones, joyous occasions">
+    <meta name="author" content="The Loving Family">
+    <meta property="og:title" content="Celebrate Grandma's 86th Birthday - A Tribute to Her Legacy">
+    <meta property="og:description" content="Explore 86 years of treasured moments, wisdom, and joy with our beloved grandmother.">
+    <meta property="og:image" content="images/hero_grandmother.jpg">
+    <title>Celebrate Grandma's Special 86th Birthday</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="hero">
-        <div class="hero-content">
-            <h1>Welcome to Our Landing Page</h1>
-            <p>Your success starts here. Discover the features we offer.</p>
-        </div>
+    <header class="hero" aria-labelledby="celebration-title">
+        <h1 id="celebration-title" tabindex="0">Happy 86th Birthday, Grandma!</h1>
+        <p>Join us in celebrating the extraordinary journey of our beloved grandmother, born January 22, 1939.</p>
+        <img src="images/hero_grandmother.jpg" alt="Grandmother smiling warmly" role="img">
     </header>
-    <section class="features">
-        <div class="feature">
-            <img src="images/feature1.png" alt="Feature 1 Icon">
-            <h2>Feature One</h2>
-            <p>Experience top-notch quality with our first feature.</p>
-        </div>
-        <div class="feature">
-            <img src="image/feature2.png" alt="Feature 2 Icon">
-            <h2>Feature Two</h2>
-            <p>Utilize the power of automation to enhance productivity.</p>
-        </div>
-        <div class="feature">
-            <img src="images/feature3.png" alt="Feature 3 Icon">
-            <h2>Feature Three</h2>
-            <p>Access resources and tools for continuous improvement.</p>
-        </div>
-    </section>
-    <footer class="footer">
-        <p>&copy; 2023 Modern Landing Page. All rights reserved.</p>
+
+    <main role="main">
+        <section class="timeline" aria-labelledby="life-timeline-title">
+            <h2 id="life-timeline-title">Timeline of Her Life</h2>
+            <ul role="list">
+                <li><time datetime="1939-01-22">Born January 22, 1939:</time> A wonderful journey begins.</li>
+                <li><time datetime="1960">1960:</time> Started her beautiful family, creating a foundation of love and values.</li>
+                <li><time datetime="1985">1985:</time> Became a cherished grandmother, a role embraced with joy.</li>
+                <li><time datetime="2023">2023:</time> Celebrating <span class="highlight">86</span> memorable, joyful years.</li>
+            </ul>
+        </section>
+
+        <section class="messages" aria-labelledby="family-messages-title">
+            <h2 id="family-messages-title">Messages from Family</h2>
+            <article class="message">
+                <blockquote>
+                    <p><em>"Happy Birthday, Grandma! Your wisdom and love inspire us every day." - Family Member</em></p>
+                </blockquote>
+            </article>
+            <article class="message">
+                <blockquote>
+                    <p><em>"Thank you for all the wonderful memories. We love you so much!" - Another Family Member</em></p>
+                </blockquote>
+            </article>
+        </section>
+
+        <section class="photos" aria-labelledby="memorable-moments-title">
+            <h2 id="memorable-moments-title">Memorable Moments</h2>
+            <figure class="photo">
+                <img src="images/memorable_moment1.jpg" alt="Grandmother at a sunny family picnic" role="img">
+                <figcaption>A sunny family picnic in 1975, a day filled with laughter and happiness.</figcaption>
+            </figure>
+            <figure class="photo">
+                <img src="images/memorable_moment2.jpg" alt="Grandmother laughing with family" role="img">
+                <figcaption>Laughter and joy during a memorable birthday celebration.</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>With love, always and forever from all of us.</p>
     </footer>
-    <script src="scripts.js"></script>
+
+    <script src="main.js"></script>
 </body>
 </html>
