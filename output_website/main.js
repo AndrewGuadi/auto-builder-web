@@ -12,4 +12,16 @@ window.addEventListener('DOMContentLoaded', (event) => {
         section.setAttribute('role', 'heading');
         section.setAttribute('aria-level', '2');
     });
+
+    // Improved responsive design for images and text
+    const images = document.querySelectorAll('img');
+    images.forEach(image => {
+        image.setAttribute('loading', 'lazy'); // Lazy load images
+    });
+
+    // Adding button functionality for enhanced interactivity
+    const button = document.querySelector('.view-more-btn');
+    button.onclick = function() {
+        alert('More memories coming soon!');
+    };
 });
